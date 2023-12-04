@@ -1,0 +1,126 @@
+body{
+    background-image: url(tlo.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:yellow;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    width: 100%;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.lewo{
+    width: 20%;
+    background-color: aqua;
+    height: 967px;
+}
+.imagLewo{
+    padding: 4%;
+    width: 40%;
+    height: 100%;
+}
+.imagSrodek{
+    width: 100%;
+    height: 150px;
+}
+.srodek{
+    width: 60%  ;
+}
+.gora{
+    display: flex;
+}
+
+.Box1{
+    text-decoration: none;
+    margin: 5%;
+    width: 250%;
+    height: 150%;
+    font-size: 100%;
+    color: black;
+    text-align: center;
+    outline: 2px solid black;
+    background-color: greenyellow;
+}
+.MiniBox2{
+    text-decoration: none;
+    margin: 5%;
+
+}
+.MiniBox1 {
+    padding: 0%;
+    margin: 0%;
+}
+.BoxText{
+    text-align: center;
+    padding: 5%;
+    margin: 0;
+}
+.Przycisk{
+    margin-left: 50%;
+    padding: 1%;
+    outline: 2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+}
+.dol{
+    display: flex;
+}
+.Box2{
+    text-decoration: none;
+    margin: 5%;
+    width: 100%;
+    height: 300px;
+    font-size: 100%;
+    color: black;
+    text-align: center;
+    outline: 2px solid black;
+    background-color: red;
+}
+.MiniBox4{
+    text-decoration: none;
+    margin: 5%;
+
+}
+.MiniBox3 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.prawo{
+    width: 20%;
+    background-color:violet;
+    height: 967px;
+}
+.MocnyPrzekaz{
+    background-color:orange;
+    color: black;
+    padding: 1%;
+    margin: 10%;
+    outline: 2px solid yellow;
+}
+.MniejszyPrzekaz{
+    background-color:orange;
+    color: black;
+    padding: 1%;
+    margin: 10%;
+    outline: 2px solid yellow;
+}
+.MałeKlocki{
+    display: flex;
+}
+footer{
+    background-image: url(stopka.gif);
+    padding: 120px 0 30px 0;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    color: yellow;
+    font-size: 150%;
+}
