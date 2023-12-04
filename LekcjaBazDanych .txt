@@ -1,0 +1,38 @@
+						   Lekcja 
+			Temat: Tworzenia połączenia w języku php z baz danych - ćwiczenia
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+1. Utwórz bazę danych o nazwie: ImieNazwiskoKlasa
+
+2. Relacyjny model baz danych: "Biblioteka"
+
+				-autorzy 
+				-ksiazki
+
+3. Utwóz połączenie do bazy danych za pomocą konstruktora klasy Mysqli.
+
+4. Dodaj 2 autorów =, którzy mają po 2 książki.
+
+5. Utwórz zapytanie z użyciem INNER JOIN.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+AD4:
+INSERT INTO autorzy(nazwa) VALUES("Arkadiusz"), ("Mariusz");
+INSERT INTO ksiazki(IDA, nazwa) VALUES(1,"php"), (1,"c++"), (2,"ksiazka1"), (2,"ksiazka2");
+
+bez inner JOIN
+SELECT autorzy.nazwa,kisazki.nazwa FROM autorzy,ksiazki WHERE autorzy.IDA = ksiazki.IDA;
+
+INNER JOIN - tworzenie zapytanie do 2 tabel o częśćwspólną.
+SELECT autorzy.nazwa,ksiazki.nazwa FROM autorzy INNER JOIN ksiazki ON autorzy.IDA = ksiazki.IDA;
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Utwórz elacyjny midek baz danych o nazwie: sklep_rowerowy
+2 tabele: Klienci, TOwary
+min: 5 klientów, każdy kient ma min po 2 zamówenia.
+
+wykonaj w pgp połączenie do db (xampp) za pomocą konstruktora new mysqli()
+rekordy wyświetl w przeglądarce internetowej
